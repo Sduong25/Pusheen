@@ -1,0 +1,36 @@
+html,body{
+	width: 100%; height: 100%
+}
+body {
+	background-color: #ffd1dc;
+}
+.mainbody {
+	width: 95%;
+	background-color: white; 
+	height: 90%; 
+	padding: 10px; 
+	box-shadow: 0px 6px 30px 0px rgba(156,83,156,1); 
+	border-radius: 25px;
+	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+}
+.title1{
+	position: relative; 
+	color: #fe73d1; 
+	text-shadow: 2px 2px 4px #ffd1dc;
+	font-family: Luna;
+}
+@font-face {
+        font-family: 'Luna'; /*a name to be used later*/
+        src: url("fonts/Luna.ttf"); /*URL to font*/
+}
+.ll {
+	position: relative; 
+	color: #fe73d1; 
+	text-shadow: 2px 2px 4px #ffd1dc;
+}
+hr {
+	border-color: #fe73d1;
+	border-width: 1px;
+}
